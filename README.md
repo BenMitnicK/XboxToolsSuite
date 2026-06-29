@@ -254,3 +254,11 @@ Toolbar Icons options:
   - 32, 48, 64, 80, 96, 110, 128
 - Object Editor icon size:
   - 32, 48, 64, 80, 96, 110, 128
+
+## ScreenShots
+
+<img width="1222" height="852" alt="XIPTools" src="https://github.com/user-attachments/assets/d7ae4961-4d68-4a89-8f16-5e4f5f137005" />
+<img width="1222" height="852" alt="XBXTools" src="https://github.com/user-attachments/assets/0a26960a-cfce-40b9-b0b4-dff30cee521a" />
+<img width="1222" height="852" alt="XMTools" src="https://github.com/user-attachments/assets/364c44d1-3296-48a8-b648-c9b0178fd377" />
+<img width="1222" height="852" alt="EditorObject" src="https://github.com/user-attachments/assets/2374ca6d-766f-410f-ad33-3baaa834fbf5" />
+<img width="1222" height="852" alt="optionbs" src="https://github.com/user-attachments/assets/e6cf3cc0-7099-478c-8d40-472c6250ad11" />
