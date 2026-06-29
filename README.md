@@ -6,18 +6,16 @@ XboxToolsSuite V2 is a modern toolkit for working with original Xbox resource fi
 
 ### Main Application
 
-- Modern PySide6 / Qt interface
 - Tab-based layout:
   - XIP Tools
   - XBX Tools
-  - XMTools
+  - XMTools and Bios BOOT
   - Options
 - Modern OpenGL mesh preview
 - Transparent splash screen support
 - Selectable splash screen logo
 - Optional non-transparent splash screen frame
 - Application reboot action from the File menu
-- Local settings saved with QSettings
 
 ### XIP Tools
 
@@ -197,8 +195,8 @@ Movement:
 
 Rotation:
 
-- C + Left/Right: rotate object X
-- C + Up/Down: rotate object Y
+- M + Left/Right: rotate object X
+- M + Up/Down: rotate object Y
 - Z + Left/Right: rotate object Z
 
 View:
@@ -234,43 +232,3 @@ XMTools options:
 
 - Open OBJ/X files without Xbox XM vertex limit
 - Offer automatic vertex welding when saving oversized XM
-
-### Core Architecture
-
-The V2 project separates UI and logic:
-
-- `main.py`
-  - Main Qt application
-  - Splash screen
-  - Global options
-  - Main tabs
-  - Styling
-
-- `projects/xiptools_qt.py`
-  - Qt UI for XIP Tools
-
-- `projects/xiptools_core.py`
-  - XIP parsing, editing, extracting, saving
-
-- `projects/xbxtools_qt.py`
-  - Qt UI for XBX Tools
-
-- `projects/xbxtools_core.py`
-  - XBX/XPR conversion and decoding logic
-
-- `projects/xmtools_qt.py`
-  - Qt UI for XMTools
-  - Mesh preview
-  - OBJ Editor
-
-- `projects/xmtools_core.py`
-  - XM, X, OBJ parsing/conversion/export logic
-
-## Requirements
-
-Python 3.10+ recommended.
-
-Dependencies:
-
-```bash
-pip install -r requirements.txt
