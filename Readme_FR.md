@@ -1,12 +1,11 @@
 # XboxToolsSuite V2 - Français
 
-XboxToolsSuite V2 est une suite d'outils moderne en PySide6 / Qt pour travailler avec les fichiers de ressources, textures et meshes de la première Xbox.
+XboxToolsSuite V2 est une suite d'outils pour travailler avec les fichiers de ressources, textures et meshes de la première Xbox.
 
 ## Fonctionnalités
 
 ### Application principale
 
-- Interface moderne PySide6 / Qt
 - Organisation en onglets :
   - XIP Tools
   - XBX Tools
@@ -17,7 +16,6 @@ XboxToolsSuite V2 est une suite d'outils moderne en PySide6 / Qt pour travailler
 - Choix du logo du splash screen
 - Mode splash non transparent avec contour
 - Redémarrage de l'application depuis le menu File
-- Options sauvegardées avec QSettings
 
 ### XIP Tools
 
@@ -197,8 +195,8 @@ Mouvement :
 
 Rotation :
 
-- C + Gauche/Droite : rotation de l'objet sur X
-- C + Haut/Bas : rotation de l'objet sur Y
+- M + Gauche/Droite : rotation de l'objet sur X
+- M + Haut/Bas : rotation de l'objet sur Y
 - Z + Gauche/Droite : rotation de l'objet sur Z
 
 Vue :
@@ -225,52 +223,34 @@ Options SplashScreen :
   - XboxToolsSuite 1
   - XboxToolsSuite 2
   - XboxToolsSuite 3
+  - XboxToolsSuite 4
+  - XboxToolsSuite 5
 - Transparence :
   - Transparent Logo
   - No Transparency
 - Redimensionner le logo pour le splash
 
+Options XIP Tools :
+
+- Ajout de fichiers :
+  - Afficher uniquement les fichiers `.xap`, `.xm` et `.xbx`
+
 Options XMTools :
 
-- Ouvrir OBJ/X sans limite de vertices Xbox XM
-- Proposer le welding automatique des vertices lors d'une sauvegarde XM trop grande
+- Import de mesh :
+  - Ouvrir OBJ/X sans limite de vertices Xbox XM
+- Limite XM :
+  - Proposer le welding automatique des vertices lors d'une sauvegarde XM trop grande
+- Couleur de l’overlay de référence :
+  - Choisir la couleur utilisée pour l’overlay de référence dans l’Object Editor
 
-### Architecture Core
+Options des icônes de toolbar :
 
-La V2 sépare l'interface et la logique :
-
-- `main.py`
-  - Application Qt principale
-  - Splash screen
-  - Options globales
-  - Onglets principaux
-  - Style global
-
-- `projects/xiptools_qt.py`
-  - Interface Qt de XIP Tools
-
-- `projects/xiptools_core.py`
-  - Lecture, édition, extraction et sauvegarde XIP
-
-- `projects/xbxtools_qt.py`
-  - Interface Qt de XBX Tools
-
-- `projects/xbxtools_core.py`
-  - Conversion et décodage XBX/XPR
-
-- `projects/xmtools_qt.py`
-  - Interface Qt de XMTools
-  - Preview mesh
-  - OBJ Editor
-
-- `projects/xmtools_core.py`
-  - Parsing, conversion et export XM/X/OBJ
-
-## Prérequis
-
-Python 3.10+ recommandé.
-
-Installation :
-
-```bash
-pip install -r requirements.txt
+- Taille des icônes XIP Tools :
+  - 32, 48, 64, 80, 96, 110, 128
+- Taille des icônes XBX Tools :
+  - 32, 48, 64, 80, 96, 110, 128
+- Taille des icônes XMTools :
+  - 32, 48, 64, 80, 96, 110, 128
+- Taille des icônes Object Editor :
+  - 32, 48, 64, 80, 96, 110, 128
