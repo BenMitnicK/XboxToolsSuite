@@ -223,12 +223,34 @@ SplashScreen options:
   - XboxToolsSuite 1
   - XboxToolsSuite 2
   - XboxToolsSuite 3
+  - XboxToolsSuite 4
+  - XboxToolsSuite 5
 - Transparency:
   - Transparent Logo
   - No Transparency
 - Resize logo to fit splash
 
+XIP Tools options:
+
+- Add Files:
+  - Show only `.xap`, `.xm`, and `.xbx`
+
 XMTools options:
 
-- Open OBJ/X files without Xbox XM vertex limit
-- Offer automatic vertex welding when saving oversized XM
+- Mesh import:
+  - Open OBJ/X files without Xbox XM vertex limit
+- XM limit:
+  - Offer automatic vertex welding when saving oversized XM
+- Reference overlay color:
+  - Choose the color used for the reference overlay in the Object Editor
+
+Toolbar Icons options:
+
+- XIP Tools icon size:
+  - 32, 48, 64, 80, 96, 110, 128
+- XBX Tools icon size:
+  - 32, 48, 64, 80, 96, 110, 128
+- XMTools icon size:
+  - 32, 48, 64, 80, 96, 110, 128
+- Object Editor icon size:
+  - 32, 48, 64, 80, 96, 110, 128
