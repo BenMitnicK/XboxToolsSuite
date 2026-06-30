@@ -262,3 +262,7 @@ Options des icônes de toolbar :
 <img width="1222" height="852" alt="XMTools" src="https://github.com/user-attachments/assets/364c44d1-3296-48a8-b648-c9b0178fd377" />
 <img width="1222" height="852" alt="EditorObject" src="https://github.com/user-attachments/assets/2374ca6d-766f-410f-ad33-3baaa834fbf5" />
 <img width="1222" height="852" alt="optionbs" src="https://github.com/user-attachments/assets/e6cf3cc0-7099-478c-8d40-472c6250ad11" />
+
+## Youtube Video
+
+https://www.youtube.com/watch?v=SMgHC59NoNs
