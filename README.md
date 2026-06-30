@@ -263,4 +263,4 @@ Toolbar Icons options:
 <img width="1222" height="852" alt="EditorObject" src="https://github.com/user-attachments/assets/2374ca6d-766f-410f-ad33-3baaa834fbf5" />
 <img width="1222" height="852" alt="optionbs" src="https://github.com/user-attachments/assets/e6cf3cc0-7099-478c-8d40-472c6250ad11" />
 
-[![Watch the video]([https://github.com/user-attachments/assets/d7ae4961-4d68-4a89-8f16-5e4f5f137005])](https://www.youtube.com/watch?v=SMgHC59NoNs)
+[![Watch the video](https://github.com/user-attachments/assets/d7ae4961-4d68-4a89-8f16-5e4f5f137005)](https://www.youtube.com/watch?v=SMgHC59NoNs)
