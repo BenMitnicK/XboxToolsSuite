@@ -1,6 +1,6 @@
 {
   "version": "2.2",
   "download_url": "https://github.com/XzyBteK/XboxToolsSuite/releases/latest",
-  "required": false,
+  "required": true,
   "message": "A new version of XboxToolsSuite is available."
 }
